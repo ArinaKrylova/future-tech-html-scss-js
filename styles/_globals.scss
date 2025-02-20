@@ -1,15 +1,10 @@
 @use 'helpers' as *;
 
 body {
-    padding: 100px;
+    @include fluid-text(18, 14);
 
-    p {
-        @include fluid-text(48, 16);
-
-        width: rem(100);
-
-        @include mobile {
-            background-color: aqua;
-        }
-    }
+    font-family: var(--font-family-base);
+    letter-spacing: -0.03em;
+    color: var(--color-gray-50);
+    background-color: var(--color-dark);
 }

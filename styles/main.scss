@@ -6,13 +6,20 @@
 
 @use 'blocks/icon';
 @use 'blocks/logo';
-@use 'blocks/button';
 @use 'blocks/burger-button';
 @use 'blocks/header';
-@use 'blocks/badge';
-@use 'blocks/soc1als';
-@use 'blocks/footer';
 
-.header {
-    display: none !important;
-}
+@use 'blocks/footer/button';
+@use 'blocks/footer/badge';
+@use 'blocks/footer/soc1als';
+@use 'blocks/footer/footer';
+
+
+@use 'blocks/hero/metrics';
+@use 'blocks/hero/advantage-card';
+@use 'blocks/hero/resources-preview';
+@use 'blocks/hero/team';
+@use 'blocks/hero/hero';
+// .header {
+//     display: none !important;
+// }
